@@ -1,9 +1,12 @@
 <odoo>
 
-        <record id="group_manager" model="res.groups">
+        <record id="openacademy_manager" model="res.groups">
             <field name="name">OpenAcademy / Manager</field>
         </record>
 
+        <record id="openacademy_user" model="res.groups">
+            <field name="name">OpenAcademy / User</field>
+        </record>
 
         <record id="only_responsible_can_modify" model="ir.rule">
             <field name="name">Only Responsible can modify Course</field>
@@ -18,6 +21,5 @@
                       ('responsible_id','=',user.id)]
             </field>
         </record>
-
 
 </odoo>

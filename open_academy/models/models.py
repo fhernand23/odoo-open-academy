@@ -1,13 +1,12 @@
 # -*- coding: utf-8 -*-
-
-
 from datetime import timedelta
 from odoo import models, fields, api, exceptions, _
 
 
 class Course(models.Model):
     _name = 'openacademy.course'
-    _description = "OpenAcademy Courses"
+    _description = 'OpenAcademy Courses'
+    # _rec_name = 'description'
 
     name = fields.Char(string="Title", required=True)
     description = fields.Text()

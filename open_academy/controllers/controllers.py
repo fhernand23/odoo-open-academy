@@ -2,7 +2,7 @@
 # from odoo import http
 
 
-# class Openacademy(http.Controller):
+# class OpenAcademy(http.Controller):
 #     @http.route('/open_academy/open_academy/', auth='public')
 #     def index(self, **kw):
 #         return "Hello, world"

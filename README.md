@@ -17,3 +17,8 @@ Configuration of the various functions and tools for operations and appearance
 Problem-solving and error detection on the development
 
 For any assistance and Doubts, you can contact us through our Odoo Support page
+
+https://www.odoo.com/documentation/14.0/developer/howtos/backend.html#model-fields
+Security -> Access right
+
+Create group OpenAcademy / Manager

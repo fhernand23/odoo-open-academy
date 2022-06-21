@@ -3,7 +3,7 @@
     <!-- explicit list view definition -->
 <!--
     <record model="ir.ui.view" id="openacademy.list">
-      <field name="name">openacademy list</field>
+      <field name="name">OpenAcademy list</field>
       <field name="model">openacademy.openacademy</field>
       <field name="arch" type="xml">
         <tree>
@@ -27,7 +27,7 @@
     <!-- server action to the one above -->
 <!--
     <record model="ir.actions.server" id="openacademy.action_server">
-      <field name="name">openacademy server</field>
+      <field name="name">OpenAcademy server</field>
       <field name="model_id" ref="model_openacademy_openacademy"/>
       <field name="state">code</field>
       <field name="code">
@@ -42,7 +42,7 @@
 
     <!-- Top menu item -->
 <!--
-    <menuitem name="openacademy" id="openacademy.menu_root"/>
+    <menuitem name="OpenAcademy" id="openacademy.menu_root"/>
 -->
     <!-- menu categories -->
 <!--

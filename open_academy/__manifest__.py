@@ -1,17 +1,13 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "Odoo 14 Development Tutorials",
+    'name': "Open Academy",
 
     'summary': """
-        Odoo 13 And 14 Development Tutorials""",
+        Open Academy module to train odoo development""",
 
     'description': """
         Odoo 14 Development Tutorials,
-        Odoo 13 Development Tutorials,
-        Development Tutorials,
-        Odoo Tutorials,
-        Odoo13, Odoo14, odoo Tutorials, odoo learning, odoo13 Tutorials, odoo14 Tutorials, Tutorials,
-        Open acadaemy module for managing trainings:
+        Open academy module for managing trainings:
         -Manage student enroll
         -Attendance registration
         -Trainer
@@ -20,16 +16,14 @@
         -More..
     """,
 
-    'author': 'Cybrosys Techno Solutions',
-    'company': 'Cybrosys Techno Solutions',
-    'website': 'https://www.cybrosys.com',
-    'live_test_url': 'https://bit.ly/3knPv8t',
+    'author': "Fede Herz",
+    'website': "http://fhlabs.com.ar",
 
     # Categories can be used to filter modules in modules listing
-    # Check https://github.com/odoo/odoo/blob/13.0/odoo/addons/base/data/ir_module_category_data.xml
+    # Check https://github.com/odoo/odoo/blob/14.0/odoo/addons/base/data/ir_module_category_data.xml
     # for the full list
     'category': 'Tutorials',
-    'version': '14.0.1.4.0',
+    'version': '14.0.1',
     'license': 'AGPL-3',
 
     # any module necessary for this one to work correctly
